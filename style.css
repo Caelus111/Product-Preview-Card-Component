@@ -38,6 +38,10 @@ a {
   height: 28.125em;
   border-radius: 10px;
 }
+/* 
+.img-side {
+  background: url(images/image-product-desktop.jpg) no-repeat center center;
+} */
 
 .img-side .desktop {
   border-radius: 10px 0px 0px 10px;
@@ -71,13 +75,15 @@ a {
 
 .content-side p {
   color: #6c7289;
-  margin: 31px 5px 20px 0px;
+  margin: 31px 5px 10px 0px;
   line-height: 1.6;
   font-size: 14px;
 }
 
 .content-side .span-text {
-  margin: 5px 0px 26px 0px;
+  margin: 5px 0px 17px 0px;
+  display: flex;
+  align-items: center;
 }
 
 .content-side .span-text span:first-child {
